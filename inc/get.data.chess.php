@@ -14,5 +14,5 @@ function getChessData($connect)
 	return $chessData;
 }
 
-$connect->close();
+
 
