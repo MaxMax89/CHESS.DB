@@ -8,8 +8,8 @@ $countRow = 8;
 $symbols = range("A", $symbolsList[$countCol - 1]);
 $numbers = range($countRow, 1);
 
-include ("inc/get.data.chess.php");
-include("inc/button.php");
+include ("inc/inc_chess_data.php");
+include("inc/inc_buttons.php");
 
 //$chessData = getChessData($connect);
 
