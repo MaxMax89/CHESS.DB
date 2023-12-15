@@ -1,9 +1,11 @@
 <?php
 
 include($_SERVER["DOCUMENT_ROOT"]."/inc/connect.php");
-include($_SERVER["DOCUMENT_ROOT"]."/inc/inc_func.php");
+include($_SERVER["DOCUMENT_ROOT"]."/app/Tools.php");
 
-$chessData = getChessData($connect);
+$objTools = new TOOLS($connect);
+$chessData = $objTools::getChessData();
+
 
 
 
