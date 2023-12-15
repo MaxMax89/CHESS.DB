@@ -1,11 +1,5 @@
 <?php
 
-
-
-
-
-
-
 $colorList    = ["darkgray", "red", "orange", "yellow", "green", "blue", "indigo", "violet", "white"];
 $currentColor = getCurrentColor('CURRENT-COLOR');
 
@@ -41,4 +35,3 @@ function getCurrentColor($cookieName)
 	return $currentColor;
 }
 
-?>
